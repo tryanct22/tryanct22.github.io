@@ -1,3 +1,5 @@
+console.log("this page is connected")
+
 const menuElement = document.querySelector('.menu');
 
 const menuOpenButton = document.getElementById('menu-hamburger');
