@@ -1,7 +1,5 @@
 /*Hamburger Start*/
-.controls {
-}
- @media (min-width: 900px) {
+  @media (min-width: 900px) {
   .controls{
   display: none;
   }}
@@ -11,32 +9,34 @@
 .menu-control:hover {
   cursor: pointer;
 }
+.menu ul li a:hover {
+  color: red;
+  font-size: 16px;
+}
 .menu {
-  position: absolute;
-  bottom: 0;
+  bottom: 100;
   left: 0;
   right: 0;
   top: 0;
   opacity: 0;
   overflow-y: scroll;
-  padding: 15px 30px;
+  padding: 15px 26px;
   position: fixed;
   transition: all 0.35s ease-in-out;
   transform: translateX(-100%);
   z-index: 10;
-  height: 80px;
+  height: 200px;
 }
 .menu-open {
   transform: translateX(0%);
-  opacity: 1;
+  opacity: .9;
 }
 .menu a, .menu a:focus, .menu a:visited {
   display: flex;
-  align-items: flex-start;
-  flex-direction: colum;
+  align-items: center;
   justify-content: center;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   margin: auto;
   text-align: center;
   text-decoration: none;
@@ -58,8 +58,12 @@
 /*Hamburger End*/
 
 body {
-  background-image: url('http://jberlife.com/wp-content/uploads/2021/04/GettyImages-1191995863-2-scaled.jpg');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/730/365/non_2x/black-and-grey-modern-material-design-with-carbon-fibre-texture-overlapped-layers-background-abstract-widescreen-background-vector.jpg');
   background-repeat: no-repeat;
+  background-attachment: stretc;
+  background-position: unset;
+  background-size: cover;
+    background-repeat: no-repea;
   background-attachment: fixed;
   background-position: cente;
 }
@@ -68,7 +72,6 @@ body {
   line-height: 14px;
   font-size: 20px;
   background: none;
-  opacity: .4;
 }
 .header{
   display: flex;
@@ -130,7 +133,7 @@ body {
   }}
 @media (max-width: 900px) { 
   .title1 {
-    font-size: 74px;
+    font-size: 60px;
   }}
 @media (max-width: 750px) { 
   .header {
@@ -151,7 +154,7 @@ body {
   }}
 @media (max-width: 900px) { 
   .title2 {
-    font-size: 50px;
+    font-size: 43px;
   }}
 .local-box{
   align-items: center;
@@ -203,7 +206,6 @@ display: none;
   padding: 2px;
   margin-left: ;
     margin-right: ;
-  
 }
 .social-left{
   padding: 10px;
@@ -236,10 +238,6 @@ display: none;
   color: white;
 }
 .fa-instagram {
-  background: #55ACEE;
-  color: white;
-}
-.fa-twitter {
   background: #55ACEE;
   color: white;
 }
@@ -321,20 +319,7 @@ ul li:hover ul li{
   }}
 .right-side{
   display: flex;
-}
-.tryout{
-  margin-top: 5px;
-  margin-bottom:5px;
-  margin-left: 30px;
-  margin-right: 30px;
-  background-color:black;
-  color: white;
-  padding: 10px;
-  font-size: 19px;
-  transition: 2s ease-in-out;
-  border-radius: 10%;
-  border: 2px solid white;
-  border-style: outset;
+  align-content: center;
 }
 .training p{
   background: none;
@@ -345,15 +330,31 @@ ul li:hover ul li{
 .tournaments p{
   background: none;
 }
+
+
+
+
+
+
+button{
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color:black;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  transition: 2s ease-in-out;
+  border-radius: 10%;
+  border: 2px solid white;
+  border-style: outset;
+}
 @media (max-width: 1065px) {
-  .tryout {
-    font-size: 10px
+  button {
+    font-size: 14px
   }}
-@media (max-width: 873px) {
-  .tryout {
-    display: non;
-  }}
-.tryout:hover{
+button:hover{
   background-color: white;
   color: red;
   font-style: italic;
@@ -361,10 +362,13 @@ ul li:hover ul li{
   cursor: pointer;
   border: 2px solid black;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   border-style: outset;
 }
-
+.text{
+  color: ghostwhite;
+  font-size: 18px;
+}
 .flexbox{
   color: white;
   text-align: center;
@@ -386,7 +390,6 @@ flex-wrap: nowrap;
   }}
 @media (max-width: 800px) { 
   .flexbox {
-    column-count: ;
     margin: 10px;
     padding: 30px;
   }}
@@ -394,9 +397,6 @@ flex-wrap: nowrap;
   zoom:1.2
 }
 .fa-instagram:hover{
-  zoom:1.2
-}
-.fa-twitter:hover{
   zoom:1.2
 }
 .player:hover{
@@ -452,7 +452,7 @@ font-size: 25px;
   }}
 @media (max-width: 800px) { 
   .qoq {
-font-size: 20px;
+font-size: 25px;
   }}
 .qoq:before,
 .qoq:after {
@@ -485,13 +485,9 @@ font-size: 20px;
 }
 .the-team{
   column-count: 5;
-  margin-top:5px;
-  margin-bottom:20px;
-  font-size: ;
-  padding-top: 0px;
 }
 p{
-  font-size: 15px;
+  font-size: 14px;
   color: white;
   background: none;
 }
@@ -503,9 +499,11 @@ p{
   }}
 @media (max-width: 800px) { 
   .the-team {
-    column-count: 1;
-    margin-left: 0px;
-    margin-right: 0px;
+display: none;
+  }}
+@media (max-width: 800px) { 
+  .meet-the-team {
+display: none;
   }}
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen{
   display: flex;

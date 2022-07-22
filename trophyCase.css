@@ -58,7 +58,7 @@
 /*Hamburger End*/---------
 
 body {
-  background-image: url('http://jberlife.com/wp-content/uploads/2021/04/GettyImages-1191995863-2-scaled.jpg');
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/730/365/non_2x/black-and-grey-modern-material-design-with-carbon-fibre-texture-overlapped-layers-background-abstract-widescreen-background-vector.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: cente;
@@ -359,17 +359,10 @@ ul li:hover ul li{
   background: #55ACEE;
   color: white;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 .fa-facebook:hover{
   zoom:1.1
 }
 .fa-instagram:hover{
-  zoom:1.1
-}
-.fa-twitter:hover{
   zoom:1.1
 }
 /*SOCIAL MEDIA END*/---------
